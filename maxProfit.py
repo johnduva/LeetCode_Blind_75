@@ -1,7 +1,7 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         """ 
-        The catch: you can move the left pointer (or buy price) right if its larger than any price to the right
+        The catch: move the left pointer (or buy price) right if its larger than the price at the right pointer
         Time complexity:  O(n)
         Space complexity: O(1)
         """
